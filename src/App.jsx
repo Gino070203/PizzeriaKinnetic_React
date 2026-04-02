@@ -1,14 +1,18 @@
-import { useState } from 'react'
+
+import { HeaderPizzeria } from './components/Header'
+import { MainPizza } from './components/Main'
+import '../src/styles/styles.css'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
 
-      <div>
-        hola
-      </div>
+      <HeaderPizzeria />
+
+      <MainPizza />
       
     </>
   )
