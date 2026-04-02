@@ -7,13 +7,13 @@ export function HeaderPizzeria(){
 
         <header className={styles.header}>
             
-            <div>
+            <div className={`container  ${styles.navContainer}`}>
 
                 <a href="">🍕 Pizzeria Kinnetic</a>
 
-                <nav>
+                <nav className={styles.nav}>
 
-                    <ul>
+                    <ul className={styles.navList}>
 
                         <li><a href="">Inicio</a></li>
                         <li><a href="">Menu</a></li>
