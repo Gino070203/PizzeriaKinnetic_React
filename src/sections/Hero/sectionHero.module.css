@@ -1,0 +1,51 @@
+.hero{
+
+    background: url('../../imgs/HeroPizza.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containerInformation{
+
+    
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.presentation h1,h3{
+    text-align: center;
+}
+
+.containerButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+.containerButtons a{
+    background-color: var(--bg--button);
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    border: 1px solid var(--border);
+}
+
+
+.containerButtons a:hover{
+    background-color: var(--bg);
+}
+
+
