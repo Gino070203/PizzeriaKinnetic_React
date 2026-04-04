@@ -1,0 +1,40 @@
+.contactForm{
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 1.2rem;
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+
+.formGroup{
+    display: flex;
+    flex-direction: column;
+}
+
+.fullWidth {
+    grid-column: 1 / -1;
+}
+
+
+label{
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+input,textarea{
+    width: 100%;
+    padding: 0.9rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 0.9rem;
+    background: var(--bg);
+    color: var(--text);
+    outline: none;
+}
+
+
+input:focus,
+textarea:focus {
+  border-color: var(--border);
+}
