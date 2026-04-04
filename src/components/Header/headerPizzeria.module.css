@@ -1,0 +1,30 @@
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: var(--bg);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+}
+
+
+.navContainer {
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    
+}
+
+
+.navList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.navList a:hover{
+    color: var(--primary);
+}
