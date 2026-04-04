@@ -1,0 +1,42 @@
+.productCard{
+    background: var(--bg);
+    border: 1px solid var(--text);
+    overflow: hidden;
+    border-radius: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+.productCard:hover{
+    transform: translateY(-6px);
+}
+
+.productCard img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    
+}
+
+.productInfo{
+    padding: 1.2rem;
+}
+
+.productInfo h3{
+    margin-bottom: 0.4rem;
+}
+
+.productInfo p{
+    color: var(--text);
+    margin-bottom: 0.8rem;
+    
+}
+
+
+.price{
+    display: inline-block;
+    font-weight: bold;
+    color: var(--surface-2);
+    background: var(--primary);
+    padding: 0.4rem 0.7rem;
+    border-radius: 0.7rem;
+}
